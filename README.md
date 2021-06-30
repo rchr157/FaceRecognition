@@ -32,6 +32,7 @@ When applying the algorithm to new pictures, it uses the saved encodings from th
 The `recognize_faces_images.py` script takes a single image and an encodings file as input. It loads the encodings database, extracts the encodings from the new image provided, and compares the new encodings with all the ones in the database. For each name in the database there are multiple encodings, the script goes through each encodings for all the names, if it matches with an encoding, it adds a point (`counts`) to the name that belongs to that encoding. Once it finishes going through all the encodings it uses the name with the largets count as the name for the new encoding.
 
 ![Success-3](./screenshots/Multi-Test3.jpg)
+
 The script works for images with one face or multiple faces. When the image is processed for the locations and encodings, it grabs the location and encoding for all faces identified. Then for each of the new encodings found it compares with the database.   
 
 ![Success-2](./screenshots/Multi-Test2.jpg)
