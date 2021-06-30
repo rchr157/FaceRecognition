@@ -1,0 +1,15 @@
+Aubry Plaza/Scott: https://www.youtube.com/watch?v=N13WI3oVda8
+coffee scene: https://www.youtube.com/watch?v=z1-ioR1Se14
+Party Scene: https://www.youtube.com/watch?v=FR49ulcC9fo
+Backstage Scene: https://www.youtube.com/watch?v=8tEh6SRwNrQ
+Gideon Contract Scene: https://www.youtube.com/watch?v=blXE5-nS5kU
+
+
+
+
+Pre-processing:
+Delete Images from movie
+Delete corrupt images
+Crop images to only include faces
+Delete images larger than 250kb
+
